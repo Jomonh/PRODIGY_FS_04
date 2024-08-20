@@ -1,0 +1,264 @@
+/*
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+.label-bold{
+  font-weight: bold;
+}
+.linktext{
+  cursor: pointer;
+  text-align: right;
+  text-decoration: underline;
+}
+.errors{
+  color: red;
+}
+.showmsg{
+  top: 15%;
+  position: absolute;
+  border-radius: 13px;
+  box-shadow: black 0px 0px 30px;
+  border: 1px solid black;
+  background-color: lightgray!important;
+  max-width: 90%;
+}
+.user-notify{
+  padding: 1px;
+  border-radius: 50%;
+  background-color: #8bfa8b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  margin: 0;
+}
+.chatDiv{
+  min-width: 70%;
+  width: 240px;
+  border-radius: 20px;
+    /* width: 240px; */
+    border-radius: 20px;
+    /* max-width: 300px; */
+    /* width: 60vw; */
+    width: auto;
+    min-width: 100px;
+}
+
+.chatDiv>span{
+  width: 100%;
+  display: block;
+}
+.chatDiv>p{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 3px 5px;
+}
+
+.chatDiv>span{
+  text-align: end;
+  padding: 0 6px;
+}
+
+
+.user1{
+  border-top-left-radius: 0;
+  align-self: start!important;
+}
+.user2{
+  border-top-right-radius: 0;
+  align-self: end!important;
+}
+.iconclass{
+  border: 2px solid;
+  border-radius: 50%;
+  background-color: white;
+  padding: 7px;
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;
+  height: 40px;
+  background-color: rgb(16, 157, 238);
+}
+.chatmsg{
+  font-weight: 500!important;
+  border-radius: 15px!important;
+}
+.searchbtn{
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+  height: 40px;
+  width: 40px;
+}
+.searchbar{
+  width: 90%;
+  border-radius: 18px!important;
+  height: 40px;
+}
+
+.cancelImg{
+  font-size: 20px;
+  font-family: cursive;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.profilePage{
+  min-height: 100vh;
+}
+.chatOpt{
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  min-width: 150px;
+  border-radius: 15px;
+}
+.chatOpt>p{
+  margin: 0;
+  padding: 10px;
+  font-weight: 600;
+  z-index: 2;
+}
+.chatOpt>p:hover{
+  background-color: white;
+  color: black;
+}
+
+.epr_q53mwh.epr_vl50xg.epr_-3yva2a.epr_c90x4z.epr_-sisw4f.epr_mw4zr1.epr_-kg0voo.epr_iogimd.epr_wtwvf4.epr_-lzq3oa {
+  display: none;
+}
+.epr_-6npj90{
+  overflow-y: scroll;
+  height: 270px!important;
+  width: 100%!important;
+}
+.epr_-xuzz9z {
+  z-index: var(--epr-category-label-z-index);
+  display: none !important;
+}
+.image_close{
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 10px;
+  background: #ffffffd1;
+  padding: 5px 14px;
+  border-radius: 50%;
+}
+.imageContain>div>img{
+  border-radius: 20px;
+}
+
+.imageContain{
+  height: 89vh !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.iconclass2{
+  border: 2px solid;
+  
+  height: 50px;
+  width: 50px;
+  max-width: 50px;
+  align-self: end;
+  margin-right: 20px;
+}
+.opt{
+  margin-top: auto;
+}
+.opt>img{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.opt>p{
+  font-size: 20px;
+}
+.emojiDemo{
+ min-height: 250px!important;
+  max-height: 400px!important;
+}
+.imgMsg{
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  min-width: 200px;
+}
+.editProfileForm{
+  width: 400px;
+  position: absolute;
+  border-radius: 13px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  max-width: 90vw;
+  top: 4%;
+  left: 5%;
+}
+.userForm>p{
+  margin: 0;
+  color:red
+}
+
+/*
+.chatDiv>p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 3px 5px;
+}
+    chatDiv>span {
+    text-align: end;
+    padding: 0 6px;
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    right: 10px;
+}
+    .chatDiv {
+    min-width: 70%;
+    width: 240px;
+    position: relative;
+    border-radius: 13px;
+}
+*/
